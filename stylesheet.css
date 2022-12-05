@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+*{
+  font-family:'Barlow Condensed', sans-serif;
+  font-weight:800;
+}
+.nav ul {
+
+    display: flex;
+    text-align:center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 16px; 
+}
+
+a{
+    color:white;
+}
+
+header {
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+}
+
+@media (max-width:200px) {
+    header{
+    display:block;
+ }
+ 
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li:hover {
+    color:black;
+     
+}
+header{
+    background-color: rgba(21, 93, 152, 0.8);
+    color:white;
+    padding: 3px 0px 3px 0px;
+}
+
+.firstblock, .secondblock, .thirdblock, .fourthblock {
+    padding-top:20px;
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom:20px;
+    display:table;
+
+}
+.firstblock img {
+    float:right;
+}
+.secondblock img {
+    float:right;
+}
+
+.thirdblock img {
+    float:right;
+}
+.fourthblock img {
+    float:right;
+}
+.thirdblock img {
+    float:right;
+}
+
+h2{
+    color:rgba(15, 33, 49, 0.8);
+    background-color:rgb(133, 135, 131);
+    font-size: 27px;
+    text-align:center;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding:30px;
+    text-align:center;
+
+  }
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear:both ;
+    padding:10px 50px;
+      
+}
+
+.heading1{
+    text-align:center;
+}
+
+
+
+.sitara{
+      background-color:black;
+      color:white;
+      
+
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 100px 200px 0px 200px; 
+    color:rgba(246, 250, 253, 0.3);
+    background-color:rgba(21, 93, 152, 0.8);
+    
+    
+}
+li{
+    list-style:none;
+}
+.about {
+    padding: 0px 100px ;
+}
+.single {
+    width:27px;
+    height: 27px;
+}
+
+a:link{
+     text-decoration:none;
+     color:white;
+}
+
+a:visted{
+    color:rgb(57, 25, 25);
+}
+
+a:active{
+    color:black;
+}
+
+a:hover {
+    color:rgba(246, 250, 253, 0.3);
+}
+
+.logo {
+        height:fit-content;
+        width: 150px;
+        padding-right: 20px;
+    }
+
+.background{
+     width:1200px;
+    
+}
+
+label {
+    display:block;
+    margin: 0.4px;
+    color:black;
+}
+fieldset {
+    border:none;
+    background-color:rgba(246, 250, 253, 0.3);
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding:2px 20px;
+    margin:8px 0;
+}
+
+input[type=e-mail] {
+    width:100%;
+    padding:2px 20px;
+    margin:8px 0;
+}
+input[type=submit] {
+    width:100%;
+    padding:2px 20px;
+}
+.about{
+    color:black;
+    background-color:white;
+    margin-bottom: 100px;
+}
+
+#sapna {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 342px;
+  height:452px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    background-color:rgba(246, 250, 253, 0.3);
+}
+
+.thank {
+    text-align:center;
+}
+
+fieldset {
+    padding: 50px;
+    border-radius: 5px;
+    border: 3px solid rgb(133, 135, 131);
+    margin-bottom: 100px;
+}
+form h1 {
+    color:rgb(0, 0, 0);
+}
+contact{
+    padding-left: 120px;
+}
+
